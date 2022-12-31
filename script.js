@@ -29,11 +29,16 @@ function createGrid()
     }
 }
 
-function createBody() {
-    for (var i = 1; i <= body.length; i++) {
-        if (i == 3) {
+function createBody() 
+{
+    for (var i = 1; i <= body.length; i++)
+    {
+        if (i == 3)
+        {
             document.querySelector('[data-tile="' + i + '"]').classList.add("head", "body");
-        } else if (i == 1 || i == 2) {
+        } 
+        else if (i == 1 || i == 2) 
+        {
             document.querySelector('[data-tile="' + i + '"]').classList.add("body");
         }
     }
