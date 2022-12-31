@@ -23,7 +23,8 @@ restartButton.addEventListener("click", function () {
 
 function createGrid() 
 {
-    for (var i = 1; i <= tilesNum; i++) {
+    for (var i = 1; i <= tilesNum; i++) 
+    {
         gameDiv.innerHTML = gameDiv.innerHTML + '<div class="tile" data-tile="' + i + '" style="width:' + boxDimensions + '%; height:' + boxDimensions + '%"></div>';
     }
 }
